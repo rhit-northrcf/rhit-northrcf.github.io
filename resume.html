@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="link-header"></header>
+
+    <!--used the following website to reference  https://www.w3schools.com/howto/howto_js_accordion.asp-->
+    <main id="main">
+        <h1>Resume Page</h1>
+
+        <section aria-labelledby="tech-heading">
+            <h3 id="tech-heading">
+                <button type="button" class="accordion-toggle" aria-expanded="true" aria-controls="tech-panel">Known Technologies</button>
+            </h3>
+            <div id="tech-panel" class="accordion-panel is-open">
+                <ul>
+                    <li>Blender</li>
+                    <li>Unreal Engine</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>Assembly</li>
+                    <li>SQL</li>
+                    <li>Racket</li>
+                    <li>Scheme</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </section>
+
+        <section aria-labelledby="work-heading">
+            <h3 id="work-heading">
+                <button type="button" class="accordion-toggle" aria-expanded="true" aria-controls="work-panel">Work Experience</button>
+            </h3>
+            <div id="work-panel" class="accordion-panel is-open">
+                <ul>
+                    <li>Yard Hand — Pike Lumber Company</li>
+                </ul>
+            </div>
+        </section>
+
+        <section aria-labelledby="edu-heading">
+            <h3 id="edu-heading">
+                <button type="button" class="accordion-toggle" aria-expanded="true" aria-controls="edu-panel">Education</button>
+            </h3>
+            <div id="edu-panel" class="accordion-panel is-open">
+                <ul>
+                    <li>High School — Warsaw Community High School</li>
+                    <li>College — Bachelor's in Computer Science, Rose-Hulman Institute of Technology (in progress)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="link-footer"></footer>
+</body>
+</html>
